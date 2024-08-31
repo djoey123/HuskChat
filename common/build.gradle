@@ -4,7 +4,7 @@ plugins {
 
 dependencies {
     api 'commons-io:commons-io:2.16.1'
-    api 'de.themoep:minedown-adventure:1.7.2-SNAPSHOT'
+    api 'de.themoep:minedown-adventure:1.7.3-SNAPSHOT'
     api 'net.william278:profanitycheckerapi:3.0'
     api 'net.william278:desertwell:2.0.4'
     api 'dev.vankka:mcdiscordreserializer:4.3.0'
@@ -17,10 +17,10 @@ dependencies {
     compileOnly 'com.github.Spicord.Spicord:spicord-common:v5-SNAPSHOT'
     compileOnly 'net.dv8tion:JDA:5.0.0-beta.4'
     compileOnly 'org.jetbrains:annotations:24.1.0'
-    compileOnly 'org.projectlombok:lombok:1.18.32'
+    compileOnly 'org.projectlombok:lombok:1.18.34'
 
     testImplementation 'net.william278:profanitycheckerapi:3.0'
     testImplementation 'net.kyori:adventure-api:4.17.0'
 
-    annotationProcessor 'org.projectlombok:lombok:1.18.32'
+    annotationProcessor 'org.projectlombok:lombok:1.18.34'
 }
